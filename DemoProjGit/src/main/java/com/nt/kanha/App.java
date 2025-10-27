@@ -4,7 +4,16 @@ package com.nt.kanha;
  * Hello world!
  */
 public class App {
+	
+	public int sum(int x,int y) {
+		System.out.println("The sum is "+(x+y));
+		return x+y;
+	}
+	
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+    	
+    	App app=new App();
+    	app.sum(100,100);
+        
     }
 }
