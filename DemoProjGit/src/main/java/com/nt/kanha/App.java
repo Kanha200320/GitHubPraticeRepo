@@ -13,7 +13,7 @@ public class App {
     public static void main(String[] args) {
     	
     	App app=new App();
-    	app.sum(100,100);
+    	System.out.println("The sum is2 "+app.sum(100,100));System.out.println("Changes done by the devloper");
         
     }
 }
