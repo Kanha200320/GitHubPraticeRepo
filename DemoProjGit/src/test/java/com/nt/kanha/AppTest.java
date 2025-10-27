@@ -21,4 +21,12 @@ public class AppTest {
         assertEquals(except, actual);
         
     }
+    @Test
+    public void sumWithZero() {
+    	App app=new App();
+    	int except=0;
+    	
+    	int actual=app.sum(0, 0);
+    	assertEquals(except, actual);
+    }
 }
