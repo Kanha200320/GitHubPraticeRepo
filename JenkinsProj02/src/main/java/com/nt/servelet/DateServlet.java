@@ -22,6 +22,7 @@ public class DateServlet extends HttpServlet {
 		
 		pw.println("<a href='index.jsp'></a>");
 		pw.close();
+		//new change
     }
 
 
