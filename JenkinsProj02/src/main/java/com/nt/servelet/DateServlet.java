@@ -20,7 +20,7 @@ public class DateServlet extends HttpServlet {
 		
 		pw.println("<h1> the date is "+d+"</h1>");
 		
-		pw.println("<a href='index.jsp'></a>");
+		pw.println("<a href='index.jsp'>Home</a>");
 		pw.close();
 		//new change
     }
